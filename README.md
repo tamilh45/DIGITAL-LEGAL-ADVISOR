@@ -14,17 +14,6 @@ Simple and interactive user interface
 
 Scalable backend architecture
 
-# Getting Started
-Digitallawyer.epizy.com
-
-
-# Prerequisites
- PHP
- Apache
- Mysql
- Codeigniter
- Xampp/wamp
-
 # Installation & Setup
 
 Install XAMPP or WAMP on your system.
