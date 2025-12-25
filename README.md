@@ -1,6 +1,18 @@
-# Digital-Lawyer
+# Digital Legal Advisor
 
-Digital Lawyer is a online legal advice portal, where one can get free advice on any legal issues.
+Digital Legal Advisor is an AI-powered web application designed to provide basic legal guidance, document insights, and legal information through a user-friendly interface. The project is inspired by existing digital lawyer systems and customized for academic, learning, and prototype purposes.
+
+# Features
+
+AI-based legal question answering
+
+Legal document guidance
+
+Multi-domain legal knowledge (general law concepts)
+
+Simple and interactive user interface
+
+Scalable backend architecture
 
 # Getting Started
 Digitallawyer.epizy.com
@@ -13,59 +25,80 @@ Digitallawyer.epizy.com
  Codeigniter
  Xampp/wamp
 
-# Instaaling
-To run Digital Lawyer on your system install xampp/wamp on your system and turn on apache and mysql port.
+# Installation & Setup
 
-now extract digitallawyer zip file into htdocs folder in xampp directory.
+Install XAMPP or WAMP on your system.
 
-now go to browser and type localhost/phpmyadmin and make a database named digitallawyer and go to import tab and select digitallawyer.sql file from digitallawyer extracted directory.
+Start Apache and MySQL services.
 
+Extract the project folder Digital-Legal-Advisor into the htdocs directory (XAMPP) or www directory (WAMP).
 
-You must have root user with empty password in your databse.
+Open your browser and navigate to:
 
-Now open url:localhost/DigitalLawyer
+http://localhost/phpmyadmin
 
-That's it.
+Create a new database named:
 
-# Built with
+digital_legal_advisor
 
-    Codeigniter - The PHP framework used
-    Mysql - Database 
+Import the provided SQL file (digital_legal_advisor.sql) from the project directory.
+
+Ensure your MySQL root user has no password (default local setup).
+
+Open the application in your browser: 
+
+http://localhost/Digital-Legal-Advisor
+# Built With
+
+CodeIgniter – PHP MVC Framework
+
+MySQL – Relational Database
+
+Apache – Web Server
+
+PHP – Backend Logic
   
-# Contributing
+# Core Functionalities
+**Legal Guidance**
 
-And for contributers feel free to join and contribute to open source as well help the project to grow. So please... make yourself comfortable to help!
+Provides structured information on common legal areas such as:
 
-# License
+Criminal Law
 
-This project is licensed under the  GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Licence - see the LICENSE.md file for details
+Labour & Service Law
 
-# Functionalities:
+Property Law
 
-Legal Advice
+Family & Divorce Law
 
- This website provides all the details about legal advises like criminal, labour and service, properties, muslim, check bounce, divorce, customer, tax etc.
- 
-File Complaint
+Consumer Protection
 
- This website provides essential details about any query and proper guidelines from constitution. Based on the provided information, you can directly file a complaint to police station from here.
- 
-Get FIR Details
+Taxation Basics
 
- You can get FIR(First Investigation Report details) from here by filling an online application.All you require is Name of district, Police station name, FIR inquiry no., name of complaint, From and To date of FIR.
- 
-Law-Order Awareness
+Cheque Bounce & Financial Disputes
 
- This program is to familiarize citizens of India with Indian law and order. This task will be carried out by subscribing to automatically generating weekly e-mails and by following Digital lawyer on social media platform.
- 
-Acts
+# Law & Order Awareness
 
- A list of various Acts and laws of the parliament and Indian Constitution is provided in this section. To simplify the navigating process, you can always search from the search bar provided at home page.
- 
-Hire a lawyer
+Enhances legal awareness by:
 
- This website also provides services like consulting a lawyer, get second opinion from them and share your experiences on community page. You can hire a lawyer from here based on the requirements.
-Q/A
+Sharing simplified explanations of laws
 
-This community page helps in connecting people and consulting lawyers on open basis where everyone can ask questions and get the answer from the experts And also anyone can see the question-answer of others.
+Promoting legal literacy
 
+Supporting awareness through digital content and updates
+
+# Acts & Constitution Reference
+
+Curated list of Indian Acts and Constitutional provisions
+
+Search functionality for easy navigation
+
+Simplified descriptions for better understanding
+
+# Community Q&A
+
+Open discussion forum for legal queries
+
+Users can view and learn from previously asked questions
+
+Encourages peer learning and expert interaction
